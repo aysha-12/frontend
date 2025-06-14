@@ -5,7 +5,7 @@ import { IoMdStar } from "react-icons/io";
 const Card = () => {
     const[card,setcard]=useState([])
     useEffect(()=>{
-        fetch("http://localhost:7000/medicine")
+        fetch("https://exam-backend-server.vercel.app/medicine")
         .then(res=>res.json())
         .then(data=>setcard(data))
     },[])
