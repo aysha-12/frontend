@@ -49,7 +49,7 @@ const Footer = () => {
               <div className='block mt-3'>
                   <p className=' text-neutral-400 '>Subscribe to our newsletter for the
                    latest updates and offers.</p>
-                  <div className="join">
+                  <div className="join mt-5">
   <div>
     <label className="input validator join-item">
       <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

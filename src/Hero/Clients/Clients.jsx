@@ -6,7 +6,7 @@ import icon from '../../assets/Vector.png'
 
 const Clients = () => {
     return (
-       <div className=' px-5 md:px-25 '>
+       <div className=' px-5 md:px-25 md:pt-30 pt-10 '>
          <div className='bg-linear-to-r from-[#09514d] to-[#09514d]    rounded-4xl'>
             <div className=' px-5 md:px-25 py-15 mt-5 md:mt-0' >
                 <div >

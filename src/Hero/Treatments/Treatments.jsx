@@ -7,7 +7,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Treatments = () => {
     return (
-        <div className='mt-5 md:my-20 px-5 md:px-25'>
+        <div className='mt-5 md:mt-25 px-5 md:px-25'>
             <div className='text-center'>
                 <p className='text-2xl md:text-6xl font-semibold text-black'>Our <span className='text-[#00c3b9]'>Specialized Treatments</span></p>
                 <p className='text-neutral-800 mt-5'>Explore our wide range of innovative anti-aging solutions.</p>

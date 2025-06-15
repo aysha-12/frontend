@@ -1,26 +1,33 @@
-import React, { useState } from 'react';
+import React, {  useState } from 'react';
 
+import app from '../../firebase/firebase.config';
+import { Link } from 'react-router-dom';
+
+
+
+
+
+//  const auth = getAuth(app);
 
 const Sign = () => {
-      const [form, setForm] = useState({
-    name: '',
-    email: '',
-    password: '',
-  });
 
-  const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
-  };
+//  const[value,setValue]=useState({})
+//  console.log(value);  
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form Data:', form);
-    // Add form submission logic here
+  const handleSubmit = () => {
+    // e.preventDefault();
+    // const data=e.target
+    // const name=data.name.value
+    // const email=data.email.value
+    // const password=data.password.value
+    // console.log(name,email,password);  
+
   };
      
  
     return (
-          <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <div className=' px-5 md:px-25 md:py-0 py-10 bg-gray-100'>
+            <div className="flex items-center justify-center min-h-screen ">
       <form 
         onSubmit={handleSubmit} 
         className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md"
@@ -32,8 +39,7 @@ const Sign = () => {
           <input 
             type="text" 
             name="name"
-            value={form.name}
-            onChange={handleChange}
+           
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
             required 
           />
@@ -44,8 +50,7 @@ const Sign = () => {
           <input 
             type="email" 
             name="email"
-            value={form.email}
-            onChange={handleChange}
+           
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
             required 
           />
@@ -56,8 +61,7 @@ const Sign = () => {
           <input 
             type="password" 
             name="password"
-            value={form.password}
-            onChange={handleChange}
+           
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
             required 
           />
@@ -65,12 +69,21 @@ const Sign = () => {
 
         <button 
           type="submit"
-          className="w-full bg-[#00c3b9] text-white py-2 rounded-lg hover:bg-[#00c3b9] transition"
+          className="w-full bg-[#00c3b9] text-white py-2 rounded-lg hover:bg-green-900
+          transition"
+        ><Link to='/shop'> 
+          Create Account</Link>
+        </button>
+        <button 
+          type="submit"
+          className="w-full bg-[#00c3b9] text-white py-2 mt-5 rounded-lg hover:bg-green-900
+          transition"
         >
-          Create Account
+         <Link to='/shop'> Create account with Google </Link>
         </button>
       </form>
     </div>
+      </div>
     );
 };
 

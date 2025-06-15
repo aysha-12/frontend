@@ -11,6 +11,7 @@ import What from './component/what-are/What';
 import Shop from './component/shop/Shop';
 import Login from './component-login/login/Login';
 import Sign from './component-login/sign/Sign';
+import Buy from './component/shop/Buy/Buy';
 
 function App() {
   const router = createBrowserRouter([
@@ -50,6 +51,10 @@ function App() {
       {
         path: "/sign",
         element: <Sign></Sign>,
+      },
+      {
+        path: "/buy",
+        element: <Buy></Buy>,
       },
     ],
   },
