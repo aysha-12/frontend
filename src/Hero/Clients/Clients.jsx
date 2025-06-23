@@ -12,7 +12,7 @@ const Clients = () => {
                 <div >
                 
                <div className='text-center'>
-                    <p className='text-2xl md:text-6xl font-semibold text-white'>What Our <span className='text-[#00c3b9]'> Clients</span> say</p>
+                    <p className='text-4xl md:text-6xl font-semibold text-white'>What Our <span className='text-[#00c3b9]'> Clients</span> say</p>
                    <p className='text-neutral-200 mt-5'>Explore our wide range of innovative anti-aging solutions.</p>
                 </div>
 

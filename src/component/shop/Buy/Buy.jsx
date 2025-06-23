@@ -1,9 +1,12 @@
 import React from 'react';
+import Hero from '../../../Hero/Hero';
+
 
 const Buy = () => {
     return (
-        <div className=' px-5 md:px-25 md:py-30 pt-10 '>
+        <div>
            
+           <Hero></Hero>
         </div>
     );
 };
