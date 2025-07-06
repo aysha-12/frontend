@@ -33,7 +33,17 @@ const Navber = () => {
         className="menu menu-sm dropdown-content bg-base-100 rounded-box  z-1 mt-3 md:w-70 w-52 p-2  shadow">
          <NavLink to='/' ><li className='btn btn-ghost md:text-xl'>Home</li></NavLink>
        <NavLink to='/about' ><li className='btn btn-ghost md:text-xl'>About us</li></NavLink>
-       <NavLink to='/shop' ><li className='btn btn-ghost md:text-xl'>Shop</li></NavLink>
+       <li >
+        <details>
+          <summary className='font-semibold mt-1 text-xl'>Shop</summary>
+          <ul className="p-2">
+            <li><NavLink to='/bundles'className='btn btn-ghost md:text-xl' >Bundles </NavLink></li>
+            <li><NavLink to='/product'className='btn btn-ghost md:text-xl' >Product </NavLink></li>
+           
+          </ul>
+        </details>
+        </li>
+       
        <NavLink to='/what' ><li className='btn btn-ghost md:text-xl'>what are peptides</li></NavLink>
        <NavLink to='/contact' ><li className='btn btn-ghost md:text-xl'>Contact</li></NavLink>
        <NavLink to='/blogs' ><li className='btn btn-ghost md:text-xl'>Blogs</li></NavLink>
@@ -46,7 +56,18 @@ const Navber = () => {
     <ul className="menu menu-horizontal px-1 ">
        <NavLink to='/' ><li className='btn btn-ghost '>Home</li></NavLink>
        <NavLink to='/about' ><li className='btn btn-ghost '>About us</li></NavLink>
-        <NavLink to='/shop' ><li className='btn btn-ghost'>Shop</li></NavLink>
+        <li >
+        <details>
+          <summary className='font-semibold mt-1'>Shop</summary>
+          <ul className="p-2">
+            <li><NavLink to='/bundles' >Bundles </NavLink></li>
+            <li><NavLink to='/product' >Product </NavLink></li>
+           
+          </ul>
+        </details>
+        </li>
+
+        
        <NavLink to='/what' ><li className='btn btn-ghost '>what are peptides</li></NavLink>
        <NavLink to='/contact' ><li className='btn btn-ghost '>Contact</li></NavLink>
        <NavLink to='/blogs' ><li className='btn btn-ghost '>Blogs</li></NavLink>

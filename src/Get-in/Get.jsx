@@ -16,7 +16,7 @@ const Get = () => {
          {/* Contact Form Section */}
       <div >
         <section className='' >
-        <div className='mt-10 px-5 md:px-10 bg-white py-10 md:py-15 rounded-2xl'>
+        <div className='mt-10 px-5 md:px-10 bg-white py-10 md:py-14 shadow-2xl rounded-2xl'>
             <h2 className="md:text-3xl text-2xl font-semibold mb-6 ">Send Us a Message</h2>
         <form className="grid grid-cols-1 gap-6">
           <input type="text" placeholder="Full Name" className="p-4 md:text-2xl border border-gray-300 rounded-lg" />

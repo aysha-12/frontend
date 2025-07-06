@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='bg-[#001716] py-10 md:py-15  rounded-t-4xl'>
-           <div className='py-10 px-5 md:px-25 lg:px-20 block md:flex justify-between '>
+           <div className='py-10 px-5 md:px-15 lg:px-20 block lg:flex  md:gap-20 '>
             <div>
                 <img src={img} alt="" />
                 <p className='text-neutral-400 mt-5 lg:text-xl' >Cutting-edge anti-aging solutions <br></br>designed for a healthier, more vibrant you.</p>
@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <p className='text-2xl lg:text-3xl text-neutral-200 mt-5 md:mt-0'>Company</p>
+                <p className='text-2xl lg:text-3xl text-neutral-200 mt-5 lg:mt-0'>Company</p>
               <div className='block mt-3 lg:text-xl'>
                   <a href='/' className=' text-neutral-400'>About us</a><br></br>
                  <a href='/' className=' text-neutral-400'>Contact</a><br></br>
@@ -35,7 +35,7 @@ const Footer = () => {
               </div>
             </div>
             <div>
-                 <p className='text-2xl lg:text-3xl text-neutral-200  mt-5 md:mt-0'>Legal</p>
+                 <p className='text-2xl lg:text-3xl text-neutral-200  mt-5 lg:mt-0'>Legal</p>
               <div className='block mt-3 lg:text-xl'>
                   <a href='/' className=' text-neutral-400'>Terms of use</a><br></br>
                  <a href='/' className=' text-neutral-400'>Privacy policy</a><br></br>
@@ -45,7 +45,7 @@ const Footer = () => {
 
             </div>
              <div>
-                 <p className='text-2xl lg:text-3xl text-neutral-200  mt-5 md:mt-0'>Newsletter</p>
+                 <p className='text-2xl lg:text-3xl text-neutral-200  mt-5 lg:mt-0'>Newsletter</p>
               <div className='block mt-3 lg:text-xl'>
                   <p className=' text-neutral-400 '>Subscribe to our newsletter for the
                    latest updates and offers.</p>

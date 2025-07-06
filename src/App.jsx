@@ -8,10 +8,13 @@ import About from './component/about/About';
 import Contact from './component/contact/Contact';
 import Blogs from './component/blogs/Blogs';
 import What from './component/what-are/What';
-import Shop from './component/shop/Shop';
+
 import Login from './component-login/login/Login';
 import Sign from './component-login/sign/Sign';
 import Buy from './component/shop/Buy/Buy';
+import Bundles from './component/shop/Bundles';
+
+import Product from './component/shop/Product/Product';
 
 function App() {
   const router = createBrowserRouter([
@@ -28,8 +31,8 @@ function App() {
         element: <About></About>,
       },
         {
-        path: "/shop",
-        element: <Shop></Shop>,
+        path: "/product",
+        element: <Product></Product>,
       },
       
       {
@@ -56,6 +59,11 @@ function App() {
         path: "/buy",
         element: <Buy></Buy>,
       },
+      {
+        path: "/bundles",
+        element: <Bundles></Bundles>,
+      },
+     
     ],
   },
 ]);
