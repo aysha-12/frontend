@@ -35,7 +35,7 @@ const Navber = () => {
        <NavLink to='/about' ><li className='btn btn-ghost md:text-xl'>About us</li></NavLink>
        <li >
         <details>
-          <summary className='font-semibold mt-1 text-xl'>Shop</summary>
+          <summary className='font-semibold mt-1 '>Shop</summary>
           <ul className="p-2">
             <li><NavLink to='/bundles'className='btn btn-ghost md:text-xl' >Bundles </NavLink></li>
             <li><NavLink to='/product'className='btn btn-ghost md:text-xl' >Product </NavLink></li>

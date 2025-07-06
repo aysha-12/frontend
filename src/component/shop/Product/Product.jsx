@@ -23,7 +23,7 @@ const Product = () => {
                 <p className='text-neutral-800 mt-5 flex-wrap md:text-2xl '>Experience the future of wellness with our premium, science-driven products—formulated to rejuvenate your skin, revitalize your energy levels, and support your body from the inside out. Each solution is crafted with clinically proven ingredients to help you look younger, feel stronger, and live better every day.</p>
             </div>               
             </div>
-            <div className='lg:mb-20 '>
+            <div className='mb-20 '>
                  <Cards></Cards>
             </div>
             
